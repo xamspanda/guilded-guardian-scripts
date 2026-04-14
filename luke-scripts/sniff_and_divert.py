@@ -298,7 +298,7 @@ def print_intel(result):
               f"-> {key} ({in_box})  sensor={str(src)[:8]}")
 
 # ============================================================================
-//  ELCOA DETECTION
+#  ELCOA DETECTION
 # ============================================================================
 
 def detect_active_elcoa(tracks):
