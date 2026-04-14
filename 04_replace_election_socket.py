@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
+# USAGE ON SWARM NODES (NixOS):
+#   Upload to /tmp/payloads/04_replace_election_socket.py, then run it with the full Python path:
+#     /run/current-system/sw/bin/python3 /tmp/payloads/04_replace_election_socket.py [args]
+#   If launching through Sliver, use:
+#     execute -o /run/current-system/sw/bin/python3 -- /tmp/payloads/04_replace_election_socket.py [args]
+#   Common helper binaries are also under /run/current-system/sw/bin/, e.g.:
+#     /run/current-system/sw/bin/cat
+#     /run/current-system/sw/bin/ls
+#     /run/current-system/sw/bin/bash
 """
 offense/04_replace_election_socket.py
 

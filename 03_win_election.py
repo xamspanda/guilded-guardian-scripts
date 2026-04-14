@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
+# USAGE ON SWARM NODES (NixOS):
+#   Upload to /tmp/payloads/03_win_election.py, then run it with the full Python path:
+#     /run/current-system/sw/bin/python3 /tmp/payloads/03_win_election.py [args]
+#   If launching through Sliver, use:
+#     execute -o /run/current-system/sw/bin/python3 -- /tmp/payloads/03_win_election.py [args]
+#   Common helper binaries are also under /run/current-system/sw/bin/, e.g.:
+#     /run/current-system/sw/bin/cat
+#     /run/current-system/sw/bin/ls
+#     /run/current-system/sw/bin/bash
 """
 offense/03_win_election.py
 
